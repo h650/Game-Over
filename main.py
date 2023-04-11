@@ -1,4 +1,6 @@
 from tkinter import *
+import ttkbootstrap as ttk
+from ttkbootstrap.constants import *
 import shutil
 import time
 import psutil
@@ -72,6 +74,9 @@ def ui():
     applist = ('Tlauncher', 'Minecraft', 'Roblox', 'WarTunder', 'CS:GO', 'Dota2', 'OSU',
                'Grand Theft Auto', 'Steam', 'EpicGame', 'EA origin', 'Stalker', 'Metro Exodus', 'Cuphead', 'Java(TM)')
 
+
+
+
     root.title('game over')
     box = Listbox(selectmode=EXTENDED)
     box2 = Listbox(selectmode=EXTENDED)
@@ -113,6 +118,9 @@ def count_lines(filename, chunk_size=1<<13):
 
 
 ui()
+
+
+#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 def delete_apps(dir, apps):
